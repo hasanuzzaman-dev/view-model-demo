@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String myRandomNumber = myData.getNumber();
         numberTV.setText(myRandomNumber);*/
 
+        //deprecated
         //MainActivityViewModel mainActivityViewModel = ViewModelProviders.of(this).get(MainActivityViewModel.class);
         mainActivityViewModel = new ViewModelProvider(this).get(MainActivityViewModel.class);
 
